@@ -17,7 +17,7 @@ int	main(int ac, char **av)
 		while (av[2][j])
 			if (av[2][j++] == av[1][i])
 				i++;
-		printf("av[1][i]: %c\n", av[1][i]);
+		//printf("av[1][i]: %c\n", av[1][i]);
 		if (!av[1][i])
 			ft_putstr(av[1]);
 	}
